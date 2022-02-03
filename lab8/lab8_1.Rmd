@@ -29,11 +29,8 @@ The quote above sums up much of the work in data science. Simply put, most of th
 - [pivoting](https://cran.r-project.org/web/packages/tidyr/vignettes/pivot.html)  
 
 ## Load the tidyverse
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(tidyverse)
-```
-
-```{r}
 library(here)
 ```
 
@@ -91,7 +88,6 @@ heartrate %>%
 ```{r}
 
 ```
-
 2. Why are these data untidy?  
 
 
@@ -187,6 +183,6 @@ length_data %>%
   unnest(length)
 ```
 
-## That's it! Take a break!  
+## That's it! Take a break and I will see you on Zoom!  
 
 -->[Home](https://jmledford3115.github.io/datascibiol/)
